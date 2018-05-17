@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class Form2 : Form
+    public partial class FormSystemManage : Form
     {
-        public Form2()
+        public FormSystemManage()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void FormSystemManage_Load(object sender, EventArgs e)
         {
-            new FormSystemManage().Show();
+            MessageBox.Show("显示系统管理的相关信息");
         }
     }
 }
