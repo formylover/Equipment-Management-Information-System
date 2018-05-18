@@ -1,6 +1,6 @@
 ﻿namespace 装备管理信息系统
 {
-    partial class Form2
+    partial class SelectionFuction
     {
         /// <summary>
         /// Required designer variable.
@@ -100,7 +100,7 @@
             this.button7.Text = "统计查询管理";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // SelectionFuction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,7 +112,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
+            this.Name = "SelectionFuction";
             this.Text = "功能选择界面-装备信息管理系统";
             this.ResumeLayout(false);
 
