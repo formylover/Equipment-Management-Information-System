@@ -10,21 +10,12 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class Form2 : Form
+    public partial class FormLogManage : Form
     {
-        public Form2()
+        public FormLogManage()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            new FormSystemManage().Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            new FormArmsRepairAndAllocation().Show();
-        }
     }
 }

@@ -57,11 +57,47 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormArmsAllocationManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArmsAllocationManage.Designer.cs">
+      <DependentUpon>FormArmsAllocationManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArmsRepairAndAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArmsRepairAndAllocation.Designer.cs">
+      <DependentUpon>FormArmsRepairAndAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArmsRepairManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArmsRepairManage.Designer.cs">
+      <DependentUpon>FormArmsRepairManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogManage.Designer.cs">
+      <DependentUpon>FormLogManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPwdModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPwdModify.Designer.cs">
+      <DependentUpon>FormPwdModify.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSystemManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSystemManage.Designer.cs">
       <DependentUpon>FormSystemManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserManage.Designer.cs">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +107,26 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormArmsAllocationManage.resx">
+      <DependentUpon>FormArmsAllocationManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArmsRepairAndAllocation.resx">
+      <DependentUpon>FormArmsRepairAndAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArmsRepairManage.resx">
+      <DependentUpon>FormArmsRepairManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogManage.resx">
+      <DependentUpon>FormLogManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPwdModify.resx">
+      <DependentUpon>FormPwdModify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSystemManage.resx">
       <DependentUpon>FormSystemManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserManage.resx">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
