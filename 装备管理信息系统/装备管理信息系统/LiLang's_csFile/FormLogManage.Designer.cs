@@ -137,6 +137,7 @@
             this.buttonMyCancel.TabIndex = 10;
             this.buttonMyCancel.Text = "取消";
             this.buttonMyCancel.UseVisualStyleBackColor = true;
+            this.buttonMyCancel.Click += new System.EventHandler(this.buttonMyCancel_Click);
             // 
             // FormLogManage
             // 

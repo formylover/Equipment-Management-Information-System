@@ -57,46 +57,82 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArmsAllocationManage.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArmsAllocationManage.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationAdd.Designer.cs">
+      <DependentUpon>FormArmsAllocationAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationManage.Designer.cs">
       <DependentUpon>FormArmsAllocationManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArmsRepairAndAllocation.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationModify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArmsRepairAndAllocation.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsAllocationModify.Designer.cs">
+      <DependentUpon>FormArmsAllocationModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairAdd.Designer.cs">
+      <DependentUpon>FormArmsRepairAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairAndAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairAndAllocation.Designer.cs">
       <DependentUpon>FormArmsRepairAndAllocation.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArmsRepairManage.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArmsRepairManage.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairManage.Designer.cs">
       <DependentUpon>FormArmsRepairManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogManage.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairModify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogManage.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormArmsRepairModify.Designer.cs">
+      <DependentUpon>FormArmsRepairModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormLogManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormLogManage.Designer.cs">
       <DependentUpon>FormLogManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPwdModify.cs">
+    <Compile Include="LiLang%27s_csFile\FormPwdModify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPwdModify.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormPwdModify.Designer.cs">
       <DependentUpon>FormPwdModify.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSystemManage.cs">
+    <Compile Include="LiLang%27s_csFile\FormRepairFinishConfirm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSystemManage.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormRepairFinishConfirm.Designer.cs">
+      <DependentUpon>FormRepairFinishConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormSystemManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormSystemManage.Designer.cs">
       <DependentUpon>FormSystemManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUserManage.cs">
+    <Compile Include="LiLang%27s_csFile\FormUserAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUserManage.Designer.cs">
+    <Compile Include="LiLang%27s_csFile\FormUserAdd.Designer.cs">
+      <DependentUpon>FormUserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiLang%27s_csFile\FormUserManage.Designer.cs">
       <DependentUpon>FormUserManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -107,25 +143,43 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArmsAllocationManage.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsAllocationAdd.resx">
+      <DependentUpon>FormArmsAllocationAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsAllocationManage.resx">
       <DependentUpon>FormArmsAllocationManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArmsRepairAndAllocation.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsAllocationModify.resx">
+      <DependentUpon>FormArmsAllocationModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsRepairAdd.resx">
+      <DependentUpon>FormArmsRepairAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsRepairAndAllocation.resx">
       <DependentUpon>FormArmsRepairAndAllocation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArmsRepairManage.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsRepairManage.resx">
       <DependentUpon>FormArmsRepairManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogManage.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormArmsRepairModify.resx">
+      <DependentUpon>FormArmsRepairModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormLogManage.resx">
       <DependentUpon>FormLogManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPwdModify.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormPwdModify.resx">
       <DependentUpon>FormPwdModify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSystemManage.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormRepairFinishConfirm.resx">
+      <DependentUpon>FormRepairFinishConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormSystemManage.resx">
       <DependentUpon>FormSystemManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUserManage.resx">
+    <EmbeddedResource Include="LiLang%27s_csFile\FormUserAdd.resx">
+      <DependentUpon>FormUserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiLang%27s_csFile\FormUserManage.resx">
       <DependentUpon>FormUserManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

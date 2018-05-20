@@ -20,7 +20,7 @@ namespace 装备管理信息系统
         //添加用户
         private void buttonAddUser_Click(object sender, EventArgs e)
         {
-            
+            new FormUserAdd().Show();
         }
 
         //重置密码
@@ -38,7 +38,10 @@ namespace 装备管理信息系统
         //取消
         private void buttonMyCancel_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("你确定要退出吗？", "提示", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

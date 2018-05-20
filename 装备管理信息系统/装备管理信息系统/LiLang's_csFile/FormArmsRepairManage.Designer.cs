@@ -39,6 +39,7 @@
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonModify = new System.Windows.Forms.Button();
             this.buttonRepairOK = new System.Windows.Forms.Button();
+            this.buttonMyCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewArmsRepair)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,39 +111,54 @@
             this.buttonAdd.TabIndex = 7;
             this.buttonAdd.Text = "添加";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(252, 349);
+            this.buttonDelete.Location = new System.Drawing.Point(193, 349);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(104, 48);
             this.buttonDelete.TabIndex = 8;
             this.buttonDelete.Text = "删除";
             this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // buttonModify
             // 
-            this.buttonModify.Location = new System.Drawing.Point(456, 349);
+            this.buttonModify.Location = new System.Drawing.Point(335, 349);
             this.buttonModify.Name = "buttonModify";
             this.buttonModify.Size = new System.Drawing.Size(106, 48);
             this.buttonModify.TabIndex = 9;
             this.buttonModify.Text = "修改";
             this.buttonModify.UseVisualStyleBackColor = true;
+            this.buttonModify.Click += new System.EventHandler(this.buttonModify_Click);
             // 
             // buttonRepairOK
             // 
-            this.buttonRepairOK.Location = new System.Drawing.Point(651, 349);
+            this.buttonRepairOK.Location = new System.Drawing.Point(500, 349);
             this.buttonRepairOK.Name = "buttonRepairOK";
             this.buttonRepairOK.Size = new System.Drawing.Size(102, 48);
             this.buttonRepairOK.TabIndex = 10;
             this.buttonRepairOK.Text = "维修完成";
             this.buttonRepairOK.UseVisualStyleBackColor = true;
+            this.buttonRepairOK.Click += new System.EventHandler(this.buttonRepairOK_Click);
+            // 
+            // buttonMyCancel
+            // 
+            this.buttonMyCancel.Location = new System.Drawing.Point(651, 349);
+            this.buttonMyCancel.Name = "buttonMyCancel";
+            this.buttonMyCancel.Size = new System.Drawing.Size(102, 48);
+            this.buttonMyCancel.TabIndex = 11;
+            this.buttonMyCancel.Text = "取消";
+            this.buttonMyCancel.UseVisualStyleBackColor = true;
+            this.buttonMyCancel.Click += new System.EventHandler(this.buttonMyCancel_Click);
             // 
             // FormArmsRepairManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 437);
+            this.Controls.Add(this.buttonMyCancel);
             this.Controls.Add(this.buttonRepairOK);
             this.Controls.Add(this.buttonModify);
             this.Controls.Add(this.buttonDelete);
@@ -175,5 +191,6 @@
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonModify;
         private System.Windows.Forms.Button buttonRepairOK;
+        private System.Windows.Forms.Button buttonMyCancel;
     }
 }

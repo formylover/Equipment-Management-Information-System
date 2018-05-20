@@ -10,28 +10,18 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class Form2 : Form
+    public partial class FormArmsRepairAdd : Form
     {
-        public Form2()
+        public FormArmsRepairAdd()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            new FormSystemManage().Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            new FormArmsRepairAndAllocation().Show();
-        }
-
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        private void buttonMyCancel_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("你确定要退出吗？", "提示", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
     }

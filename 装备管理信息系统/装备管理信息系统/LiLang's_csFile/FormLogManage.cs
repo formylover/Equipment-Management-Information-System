@@ -17,5 +17,12 @@ namespace 装备管理信息系统
             InitializeComponent();
         }
 
+        private void buttonMyCancel_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("你确定要退出吗？", "提示", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }
