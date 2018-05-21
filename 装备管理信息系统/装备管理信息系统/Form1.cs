@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class Form1 : Form
+    public partial class Load : Form
     {
-        public Form1()
+        public Load()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace 装备管理信息系统
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2();
+            SelectionFuction form2 = new SelectionFuction();
             form2.Show();
         }
     }

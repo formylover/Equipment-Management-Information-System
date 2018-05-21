@@ -1,6 +1,6 @@
 ﻿namespace 装备管理信息系统
 {
-    partial class Form1
+    partial class Load
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -78,7 +78,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Load
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,7 +88,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Name = "Load";
             this.Text = "登录-装备信息管理系统";
             this.ResumeLayout(false);
             this.PerformLayout();

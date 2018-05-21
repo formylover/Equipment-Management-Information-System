@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class Form2 : Form
+    public partial class SelectionFuction : Form
     {
-        public Form2()
+        public SelectionFuction()
         {
             InitializeComponent();
         }

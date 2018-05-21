@@ -16,7 +16,7 @@ namespace 装备管理信息系统
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Load());
         }
     }
 }
