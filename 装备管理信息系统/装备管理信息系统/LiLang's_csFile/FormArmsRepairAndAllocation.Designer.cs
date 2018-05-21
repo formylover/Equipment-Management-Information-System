@@ -37,7 +37,7 @@
             // 
             this.buttonArmsRepair.Location = new System.Drawing.Point(69, 64);
             this.buttonArmsRepair.Name = "buttonArmsRepair";
-            this.buttonArmsRepair.Size = new System.Drawing.Size(187, 67);
+            this.buttonArmsRepair.Size = new System.Drawing.Size(292, 67);
             this.buttonArmsRepair.TabIndex = 0;
             this.buttonArmsRepair.Text = "装备维修信息管理";
             this.buttonArmsRepair.UseVisualStyleBackColor = true;
@@ -47,7 +47,7 @@
             // 
             this.buttonArmsAllocation.Location = new System.Drawing.Point(69, 164);
             this.buttonArmsAllocation.Name = "buttonArmsAllocation";
-            this.buttonArmsAllocation.Size = new System.Drawing.Size(187, 71);
+            this.buttonArmsAllocation.Size = new System.Drawing.Size(292, 71);
             this.buttonArmsAllocation.TabIndex = 1;
             this.buttonArmsAllocation.Text = "装备调拨信息管理";
             this.buttonArmsAllocation.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // 
             this.buttonExitArmsRepairAndAllocation.Location = new System.Drawing.Point(69, 273);
             this.buttonExitArmsRepairAndAllocation.Name = "buttonExitArmsRepairAndAllocation";
-            this.buttonExitArmsRepairAndAllocation.Size = new System.Drawing.Size(187, 71);
+            this.buttonExitArmsRepairAndAllocation.Size = new System.Drawing.Size(292, 71);
             this.buttonExitArmsRepairAndAllocation.TabIndex = 2;
             this.buttonExitArmsRepairAndAllocation.Text = "退出装备维修与调拨";
             this.buttonExitArmsRepairAndAllocation.UseVisualStyleBackColor = true;
@@ -67,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 404);
+            this.ClientSize = new System.Drawing.Size(442, 404);
             this.Controls.Add(this.buttonExitArmsRepairAndAllocation);
             this.Controls.Add(this.buttonArmsAllocation);
             this.Controls.Add(this.buttonArmsRepair);
