@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Load));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,22 +38,22 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 73);
+            this.textBox1.Location = new System.Drawing.Point(269, 123);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(130, 25);
+            this.textBox1.Size = new System.Drawing.Size(203, 25);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 133);
+            this.textBox2.Location = new System.Drawing.Point(269, 183);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(130, 25);
+            this.textBox2.Size = new System.Drawing.Size(203, 25);
             this.textBox2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(74, 83);
+            this.label1.Location = new System.Drawing.Point(167, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 2;
@@ -61,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(74, 143);
+            this.label2.Location = new System.Drawing.Point(167, 186);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 3;
@@ -70,7 +71,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(368, 93);
+            this.button1.Location = new System.Drawing.Point(251, 271);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 55);
             this.button1.TabIndex = 4;
@@ -82,7 +83,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 254);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(700, 373);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
