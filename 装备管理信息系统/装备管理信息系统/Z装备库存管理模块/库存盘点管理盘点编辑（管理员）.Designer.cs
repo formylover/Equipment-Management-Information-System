@@ -188,7 +188,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "库存盘点管理盘点编辑_管理员_";
-            this.Text = "库存盘点管理盘点编辑_管理员_";
+            this.Text = "库存盘点管理盘点编辑";
             this.ResumeLayout(false);
             this.PerformLayout();
 
