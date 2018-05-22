@@ -134,7 +134,7 @@
             this.Controls.Add(this.仓库名称);
             this.Controls.Add(this.仓库编号);
             this.Name = "装备信息管理删除";
-            this.Text = "装备信息管理删除";
+            this.Text = "仓库信息管理删除";
             this.ResumeLayout(false);
             this.PerformLayout();
 
