@@ -45,6 +45,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "系统管理";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -72,6 +73,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "装备维修与调拨管理";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -114,6 +116,7 @@
             this.Controls.Add(this.button1);
             this.Name = "SelectionFuction";
             this.Text = "功能选择界面-装备信息管理系统";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.ResumeLayout(false);
 
         }
