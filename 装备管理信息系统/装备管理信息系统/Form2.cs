@@ -20,7 +20,7 @@ namespace 装备管理信息系统
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            装备基本信息管理 to_zbjbxx = new 装备基本信息管理();
+            基本信息管理 to_zbjbxx = new 基本信息管理();
             to_zbjbxx.Show();
         }
     }
