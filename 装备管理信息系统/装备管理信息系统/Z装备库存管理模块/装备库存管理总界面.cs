@@ -9,18 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using 装备管理信息系统.Z装备库存管理模块;
 
-namespace 装备管理信息系统
+namespace 装备管理信息系统.Z装备库存管理模块
 {
-    public partial class SelectionFuction : Form
+    public partial class 装备库存管理总界面 : Form
     {
-        public SelectionFuction()
+        public 装备库存管理总界面()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void 总界面仓库信息管理按钮_Click(object sender, EventArgs e)
         {
-            new 装备库存管理总界面().Show();
+            new 仓库
         }
     }
 }

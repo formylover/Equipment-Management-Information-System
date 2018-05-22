@@ -1,6 +1,6 @@
 ﻿namespace 装备库存管理
 {
-    partial class 仓库管理
+    partial class 仓库信息管理
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -39,59 +39,65 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 15);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(593, 203);
+            this.dataGridView1.Size = new System.Drawing.Size(791, 254);
             this.dataGridView1.TabIndex = 0;
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(29, 249);
+            this.Add.Location = new System.Drawing.Point(39, 311);
+            this.Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(97, 56);
+            this.Add.Size = new System.Drawing.Size(129, 70);
             this.Add.TabIndex = 1;
             this.Add.Text = "添加";
             this.Add.UseVisualStyleBackColor = true;
             // 
             // Change
             // 
-            this.Change.Location = new System.Drawing.Point(185, 249);
+            this.Change.Location = new System.Drawing.Point(247, 311);
+            this.Change.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Change.Name = "Change";
-            this.Change.Size = new System.Drawing.Size(102, 56);
+            this.Change.Size = new System.Drawing.Size(136, 70);
             this.Change.TabIndex = 2;
             this.Change.Text = "修改";
             this.Change.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(351, 249);
+            this.button3.Location = new System.Drawing.Point(468, 311);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 56);
+            this.button3.Size = new System.Drawing.Size(133, 70);
             this.button3.TabIndex = 3;
             this.button3.Text = "删除";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(498, 249);
+            this.button1.Location = new System.Drawing.Point(664, 311);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 56);
+            this.button1.Size = new System.Drawing.Size(125, 70);
             this.button1.TabIndex = 4;
             this.button1.Text = "取消";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // 仓库管理
+            // 仓库信息管理
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 326);
+            this.ClientSize = new System.Drawing.Size(823, 408);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.Change);
             this.Controls.Add(this.Add);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "仓库管理";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "仓库信息管理";
             this.Text = "仓库信息管理";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

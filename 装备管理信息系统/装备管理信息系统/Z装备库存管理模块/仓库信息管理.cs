@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 装备库存管理
 {
-    public partial class 仓库管理 : Form
+    public partial class 仓库信息管理 : Form
     {
-        public 仓库管理()
+        public 仓库信息管理()
         {
             InitializeComponent();
         }
