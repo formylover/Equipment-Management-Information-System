@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using 装备管理信息系统.Z装备库存管理模块;
 
 namespace 装备管理信息系统
 {
@@ -16,6 +17,7 @@ namespace 装备管理信息系统
         {
             InitializeComponent();
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -33,6 +35,11 @@ namespace 装备管理信息系统
             {
                 Application.Exit();
             }
+        }   
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new 装备库存管理总界面().Show();
         }
     }
 }
