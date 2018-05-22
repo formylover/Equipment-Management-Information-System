@@ -16,5 +16,15 @@ namespace 装备库存管理
         {
             InitializeComponent();
         }
+
+        private void 装备出库管理添加_Click(object sender, EventArgs e)
+        {
+            new 装备出库管理添加().Show();
+        }
+
+        private void 装备出库管理修改_Click(object sender, EventArgs e)
+        {
+            new 装备出库管理修改().Show();
+        }
     }
 }

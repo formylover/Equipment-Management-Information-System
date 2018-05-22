@@ -16,5 +16,10 @@ namespace 装备库存管理
         {
             InitializeComponent();
         }
+
+        private void 盘点_Click(object sender, EventArgs e)
+        {
+            new 库存盘点管理盘点编辑_管理员_().Show();
+        }
     }
 }

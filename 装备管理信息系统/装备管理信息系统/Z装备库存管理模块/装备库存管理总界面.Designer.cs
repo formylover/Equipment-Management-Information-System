@@ -52,6 +52,7 @@
             this.总界面装备出库管理按钮.TabIndex = 1;
             this.总界面装备出库管理按钮.Text = "装备出库管理";
             this.总界面装备出库管理按钮.UseVisualStyleBackColor = true;
+            this.总界面装备出库管理按钮.Click += new System.EventHandler(this.总界面装备出库管理按钮_Click);
             // 
             // 总界面装备入库管理按钮
             // 
@@ -61,6 +62,7 @@
             this.总界面装备入库管理按钮.TabIndex = 2;
             this.总界面装备入库管理按钮.Text = "装备入库管理";
             this.总界面装备入库管理按钮.UseVisualStyleBackColor = true;
+            this.总界面装备入库管理按钮.Click += new System.EventHandler(this.总界面装备入库管理按钮_Click);
             // 
             // 总界面库存盘点管理按钮
             // 
@@ -70,6 +72,7 @@
             this.总界面库存盘点管理按钮.TabIndex = 3;
             this.总界面库存盘点管理按钮.Text = "库存盘点管理";
             this.总界面库存盘点管理按钮.UseVisualStyleBackColor = true;
+            this.总界面库存盘点管理按钮.Click += new System.EventHandler(this.总界面库存盘点管理按钮_Click);
             // 
             // 装备库存管理总界面
             // 

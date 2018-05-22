@@ -43,86 +43,96 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 30);
+            this.label1.Location = new System.Drawing.Point(51, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "选择仓库";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(249, 30);
+            this.label2.Location = new System.Drawing.Point(332, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "装备类别";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(483, 30);
+            this.label3.Location = new System.Drawing.Point(644, 38);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "装备名称";
             // 
             // 选择仓库
             // 
             this.选择仓库.FormattingEnabled = true;
-            this.选择仓库.Location = new System.Drawing.Point(97, 27);
+            this.选择仓库.Location = new System.Drawing.Point(129, 34);
+            this.选择仓库.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.选择仓库.Name = "选择仓库";
-            this.选择仓库.Size = new System.Drawing.Size(121, 20);
+            this.选择仓库.Size = new System.Drawing.Size(160, 23);
             this.选择仓库.TabIndex = 3;
             // 
             // 装备类别
             // 
             this.装备类别.FormattingEnabled = true;
-            this.装备类别.Location = new System.Drawing.Point(308, 27);
+            this.装备类别.Location = new System.Drawing.Point(411, 34);
+            this.装备类别.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备类别.Name = "装备类别";
-            this.装备类别.Size = new System.Drawing.Size(121, 20);
+            this.装备类别.Size = new System.Drawing.Size(160, 23);
             this.装备类别.TabIndex = 4;
             // 
             // 装备名称
             // 
             this.装备名称.FormattingEnabled = true;
-            this.装备名称.Location = new System.Drawing.Point(542, 27);
+            this.装备名称.Location = new System.Drawing.Point(723, 34);
+            this.装备名称.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备名称.Name = "装备名称";
-            this.装备名称.Size = new System.Drawing.Size(121, 20);
+            this.装备名称.Size = new System.Drawing.Size(160, 23);
             this.装备名称.TabIndex = 5;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 65);
+            this.dataGridView1.Location = new System.Drawing.Point(53, 81);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(639, 249);
+            this.dataGridView1.Size = new System.Drawing.Size(852, 311);
             this.dataGridView1.TabIndex = 6;
             // 
             // 盘点
             // 
-            this.盘点.Location = new System.Drawing.Point(147, 353);
+            this.盘点.Location = new System.Drawing.Point(196, 441);
+            this.盘点.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.盘点.Name = "盘点";
-            this.盘点.Size = new System.Drawing.Size(89, 38);
+            this.盘点.Size = new System.Drawing.Size(119, 48);
             this.盘点.TabIndex = 7;
             this.盘点.Text = "盘点";
             this.盘点.UseVisualStyleBackColor = true;
+            this.盘点.Click += new System.EventHandler(this.盘点_Click);
             // 
             // 取消
             // 
-            this.取消.Location = new System.Drawing.Point(430, 353);
+            this.取消.Location = new System.Drawing.Point(573, 441);
+            this.取消.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.取消.Name = "取消";
-            this.取消.Size = new System.Drawing.Size(89, 38);
+            this.取消.Size = new System.Drawing.Size(119, 48);
             this.取消.TabIndex = 8;
             this.取消.Text = "取消";
             this.取消.UseVisualStyleBackColor = true;
             // 
             // 库存盘点管理
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 403);
+            this.ClientSize = new System.Drawing.Size(941, 504);
             this.Controls.Add(this.取消);
             this.Controls.Add(this.盘点);
             this.Controls.Add(this.dataGridView1);
@@ -132,6 +142,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "库存盘点管理";
             this.Text = "库存盘点管理";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

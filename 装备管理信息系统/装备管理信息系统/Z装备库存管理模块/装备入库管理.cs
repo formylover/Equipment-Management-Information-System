@@ -21,5 +21,15 @@ namespace 装备库存管理
         {
 
         }
+
+        private void 装备入库管理添加_Click(object sender, EventArgs e)
+        {
+            new 装备入库管理添加().Show();
+        }
+
+        private void 装备入库管理修改_Click(object sender, EventArgs e)
+        {
+            new 装备入库管理修改().Show();
+        }
     }
 }

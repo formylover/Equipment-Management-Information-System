@@ -20,7 +20,22 @@ namespace 装备管理信息系统.Z装备库存管理模块
 
         private void 总界面仓库信息管理按钮_Click(object sender, EventArgs e)
         {
-            new 仓库
+            new 装备库存管理.仓库信息管理().Show();
+        }
+
+        private void 总界面装备出库管理按钮_Click(object sender, EventArgs e)
+        {
+            new 装备库存管理.装备出库管理().Show();
+        }
+
+        private void 总界面装备入库管理按钮_Click(object sender, EventArgs e)
+        {
+            new 装备库存管理.装备入库管理().Show();
+        }
+
+        private void 总界面库存盘点管理按钮_Click(object sender, EventArgs e)
+        {
+            new 装备库存管理.库存盘点管理().Show();
         }
     }
 }

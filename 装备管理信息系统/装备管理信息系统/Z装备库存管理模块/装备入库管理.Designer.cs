@@ -44,44 +44,51 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 70);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 88);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(591, 224);
+            this.dataGridView1.Size = new System.Drawing.Size(788, 280);
             this.dataGridView1.TabIndex = 0;
             // 
             // 装备入库管理添加
             // 
-            this.装备入库管理添加.Location = new System.Drawing.Point(27, 316);
+            this.装备入库管理添加.Location = new System.Drawing.Point(36, 395);
+            this.装备入库管理添加.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库管理添加.Name = "装备入库管理添加";
-            this.装备入库管理添加.Size = new System.Drawing.Size(101, 48);
+            this.装备入库管理添加.Size = new System.Drawing.Size(135, 60);
             this.装备入库管理添加.TabIndex = 1;
             this.装备入库管理添加.Text = "添加";
             this.装备入库管理添加.UseVisualStyleBackColor = true;
+            this.装备入库管理添加.Click += new System.EventHandler(this.装备入库管理添加_Click);
             // 
             // 装备入库管理返回
             // 
-            this.装备入库管理返回.Location = new System.Drawing.Point(523, 316);
+            this.装备入库管理返回.Location = new System.Drawing.Point(697, 395);
+            this.装备入库管理返回.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库管理返回.Name = "装备入库管理返回";
-            this.装备入库管理返回.Size = new System.Drawing.Size(95, 48);
+            this.装备入库管理返回.Size = new System.Drawing.Size(127, 60);
             this.装备入库管理返回.TabIndex = 2;
             this.装备入库管理返回.Text = "返回";
             this.装备入库管理返回.UseVisualStyleBackColor = true;
             // 
             // 装备入库管理修改
             // 
-            this.装备入库管理修改.Location = new System.Drawing.Point(199, 316);
+            this.装备入库管理修改.Location = new System.Drawing.Point(265, 395);
+            this.装备入库管理修改.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库管理修改.Name = "装备入库管理修改";
-            this.装备入库管理修改.Size = new System.Drawing.Size(92, 48);
+            this.装备入库管理修改.Size = new System.Drawing.Size(123, 60);
             this.装备入库管理修改.TabIndex = 5;
             this.装备入库管理修改.Text = "修改";
             this.装备入库管理修改.UseVisualStyleBackColor = true;
+            this.装备入库管理修改.Click += new System.EventHandler(this.装备入库管理修改_Click);
             // 
             // 装备入库管理删除
             // 
-            this.装备入库管理删除.Location = new System.Drawing.Point(362, 316);
+            this.装备入库管理删除.Location = new System.Drawing.Point(483, 395);
+            this.装备入库管理删除.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库管理删除.Name = "装备入库管理删除";
-            this.装备入库管理删除.Size = new System.Drawing.Size(90, 48);
+            this.装备入库管理删除.Size = new System.Drawing.Size(120, 60);
             this.装备入库管理删除.TabIndex = 6;
             this.装备入库管理删除.Text = "删除";
             this.装备入库管理删除.UseVisualStyleBackColor = true;
@@ -89,51 +96,56 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 15);
+            this.label1.Location = new System.Drawing.Point(57, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 7;
             this.label1.Text = "选择时间";
             // 
             // 装备入库选择时间年
             // 
             this.装备入库选择时间年.FormattingEnabled = true;
-            this.装备入库选择时间年.Location = new System.Drawing.Point(102, 12);
+            this.装备入库选择时间年.Location = new System.Drawing.Point(136, 15);
+            this.装备入库选择时间年.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库选择时间年.Name = "装备入库选择时间年";
-            this.装备入库选择时间年.Size = new System.Drawing.Size(68, 20);
+            this.装备入库选择时间年.Size = new System.Drawing.Size(89, 23);
             this.装备入库选择时间年.TabIndex = 8;
             // 
             // 装备入库选择时间月
             // 
             this.装备入库选择时间月.FormattingEnabled = true;
-            this.装备入库选择时间月.Location = new System.Drawing.Point(199, 12);
+            this.装备入库选择时间月.Location = new System.Drawing.Point(265, 15);
+            this.装备入库选择时间月.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.装备入库选择时间月.Name = "装备入库选择时间月";
-            this.装备入库选择时间月.Size = new System.Drawing.Size(68, 20);
+            this.装备入库选择时间月.Size = new System.Drawing.Size(89, 23);
             this.装备入库选择时间月.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 15);
+            this.label2.Location = new System.Drawing.Point(235, 19);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.Size = new System.Drawing.Size(22, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "年";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(273, 15);
+            this.label3.Location = new System.Drawing.Point(364, 19);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 12);
+            this.label3.Size = new System.Drawing.Size(22, 15);
             this.label3.TabIndex = 11;
             this.label3.Text = "月";
             // 
             // 装备入库管理
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 376);
+            this.ClientSize = new System.Drawing.Size(876, 470);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.装备入库选择时间月);
@@ -144,6 +156,7 @@
             this.Controls.Add(this.装备入库管理返回);
             this.Controls.Add(this.装备入库管理添加);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "装备入库管理";
             this.Text = "装备入库管理";
             this.Load += new System.EventHandler(this.装备入库管理_Load);
