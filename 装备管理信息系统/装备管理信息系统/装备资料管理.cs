@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class SelectionFuction : Form
+    public partial class 装备资料管理 : Form
     {
-        public SelectionFuction()
+        public 装备资料管理()
         {
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            装备资料管理 to_zbzl = new 装备资料管理();
-            to_zbzl.Show();
+            资料类型管理 to_zllx = new 资料类型管理();
+            to_zllx.Show();
         }
     }
 }
