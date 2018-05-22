@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class SelectionFuction : Form
+    public partial class FundingData : Form
     {
-        public SelectionFuction()
+        public FundingData()
         {
             InitializeComponent();
         }
-        private void button7_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            StatisticQuery sq = new StatisticQuery();
-            sq.Show();
-        }
 
-        private void SelectionFuction_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

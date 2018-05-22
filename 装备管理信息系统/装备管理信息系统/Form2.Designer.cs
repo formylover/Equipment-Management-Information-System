@@ -99,6 +99,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "统计查询管理";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // SelectionFuction
             // 
@@ -114,6 +115,7 @@
             this.Controls.Add(this.button1);
             this.Name = "SelectionFuction";
             this.Text = "功能选择界面-装备信息管理系统";
+            this.Load += new System.EventHandler(this.SelectionFuction_Load);
             this.ResumeLayout(false);
 
         }
