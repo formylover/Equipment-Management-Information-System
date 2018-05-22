@@ -10,18 +10,21 @@ using System.Windows.Forms;
 
 namespace 装备管理信息系统
 {
-    public partial class SelectionFuction : Form
+    public partial class 编辑人员信息 : Form
     {
-        public SelectionFuction()
+        public 编辑人员信息()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void 人员基本信息管理_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            装备基本信息管理 to_zbjbxx = new 装备基本信息管理();
-            to_zbjbxx.Show();
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

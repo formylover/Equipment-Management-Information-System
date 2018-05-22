@@ -59,6 +59,54 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="人员基本信息管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人员基本信息管理.Designer.cs">
+      <DependentUpon>人员基本信息管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="基本信息管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="基本信息管理.Designer.cs">
+      <DependentUpon>基本信息管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="编辑人员部门调转.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="编辑人员部门调转.Designer.cs">
+      <DependentUpon>编辑人员部门调转.cs</DependentUpon>
+    </Compile>
+    <Compile Include="编辑人员信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="编辑人员信息.Designer.cs">
+      <DependentUpon>编辑人员信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="编辑装备信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="编辑装备信息.Designer.cs">
+      <DependentUpon>编辑装备信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="编辑部门信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="编辑部门信息.Designer.cs">
+      <DependentUpon>编辑部门信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="装备基本信息管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="装备基本信息管理.Designer.cs">
+      <DependentUpon>装备基本信息管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="部门基本信息管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="部门基本信息管理.Designer.cs">
+      <DependentUpon>部门基本信息管理.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +122,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="人员基本信息管理.resx">
+      <DependentUpon>人员基本信息管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本信息管理.resx">
+      <DependentUpon>基本信息管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="编辑人员部门调转.resx">
+      <DependentUpon>编辑人员部门调转.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="编辑人员信息.resx">
+      <DependentUpon>编辑人员信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="编辑装备信息.resx">
+      <DependentUpon>编辑装备信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="编辑部门信息.resx">
+      <DependentUpon>编辑部门信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="装备基本信息管理.resx">
+      <DependentUpon>装备基本信息管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="部门基本信息管理.resx">
+      <DependentUpon>部门基本信息管理.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
